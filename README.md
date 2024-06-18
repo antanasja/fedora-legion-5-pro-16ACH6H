@@ -3,6 +3,16 @@ Knowledge base on running Fedora 40 on Legion 5 Pro (16ACH6H)
 
 ## How to's
 - Nvidia drivers: https://rpmfusion.org/Howto/NVIDIA
+- Battery conservation mode:
+
+    You can use desktop environments extension/applet (just search "lenovo conservation mode [KDE/Gnome]") or switch it manually:
+    ```bash
+    #enable:
+    echo 1 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+    
+    #disable:
+    echo 0 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+    ```
 
 ## Issues
 
