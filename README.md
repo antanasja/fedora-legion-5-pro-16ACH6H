@@ -1,5 +1,5 @@
 # fedora-legion-5-pro-16ACH6H
-Knowledge base on running Fedora 40 on Legion 5 pro (16ACH6H)
+Knowledge base on running Fedora 40 on Legion 5 Pro (16ACH6H)
 
 ## How to's
 - Nvidia drivers: https://rpmfusion.org/Howto/NVIDIA
